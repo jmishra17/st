@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jasfiddle.spacetrooper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/drone9_ss"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+         <activity
+            android:name="com.jasfiddle.spacetrooper.main.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+              
+        <activity
+            android:name="com.jasfiddle.spacetrooper.main.GFXActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+               <action android:name="com.jasfiddle.spacetrooper.CLEARSCREEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ui.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.jasfiddle.spacetrooper.ui.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ui.Objective"
+            android:label="@string/objective_title"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.jasfiddle.spacetrooper.ui.OBJECTIVE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ui.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.jasfiddle.spacetrooper.ui.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+   	
+      
+      </application>
+
+</manifest>

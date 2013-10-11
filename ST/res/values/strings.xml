@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">SpaceTrooper</string>
+    <string name ="aboutUs">
+        Space Trooper is a small 2D game engine, developed by 
+        Jasper Bloom, an undergraduate student at the University 
+        of Washington. Right now it is only available in 3 levels
+        but if you feel satisfied with this old school styled of 
+        game, shoot an email at jbloom1704@gmail.com and I will add
+        more levels and features. Thank you for playing Space 
+        Trooper. Your feed back is important.
+    </string>
+    
+    <string name = "objective">
+        Defeat the bos to get to next level    
+    </string>
+    <string name = "objective_title">
+        Level Objective
+    </string>
+
+</resources>

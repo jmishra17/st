@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/aboutUs"
+          android:title="About Us"
+          android:numericShortcut="1"
+          android:alphabeticShortcut="a" />    
+    <item android:id="@+id/resume"
+          android:title="Resume"
+          android:numericShortcut="3"
+          android:alphabeticShortcut="r" />
+    <item android:id="@+id/objective" 
+          android:title="Objective"
+          android:numericShortcut = "4"
+          android:alphabeticShortcut="o" />
+   	<item android:id="@+id/exit" 
+          android:title="Exit"
+          android:numericShortcut = "5"
+          android:alphabeticShortcut="e" />
+    
+</menu>
